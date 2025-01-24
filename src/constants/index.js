@@ -1,4 +1,4 @@
-import {mobile,backend,creator,web,javascript,typescript,html,css,reactjs,redux,tailwind,nodejs,mongodb,git,figma,docker,augustmortgage,situsamc,sls,clayton,jciii,easybay,pizzatime,speedymeals,threejs} from "../assets";
+import {mobile,backend,creator,web,javascript,typescript,html,css,reactjs,redux,tailwind,nodejs,mongodb,git,figma,docker,augustmortgage,situsamc,sls,clayton,jciii,easybay,pizzatime,speedymeals,threejs, testimonials} from "../assets";
 
 export const navLinks = [
   {
@@ -166,21 +166,21 @@ const testimonials = [
     name: "Kimberly August",
     designation: "COO",
     company: "August Mortgage Corporation",
-    image: "testimonialkimberlyaugust",
+
   },
   {
     testimonial: "Good Job!",
     name: "Neil Hinch",
     designation: "Senior Mortgage Examiner, Lead Compliance Analyst ",
     company: "Clayton Holdings, LLC",
-    image: "testimonialneilhinch",
+
   },
   {
     testimonial: "Great Work!",
     name: "Darren Palladino",
     designation: "AVP, Business Operations ",
     company: "SitusAMC",
-    image: "testimonialdarrenpalladino",
+
   },
 ];
 
