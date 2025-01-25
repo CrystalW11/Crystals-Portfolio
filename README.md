@@ -1,9 +1,9 @@
 
 # Crystals-Portfolio
-<img width="801" alt="image" src="https://github.com/user-attachments/assets/b13d8a16-469d-4e02-be8c-515ed68bcd3d" />
-<img width="686" alt="image" src="https://github.com/user-attachments/assets/57b217df-36f2-4f99-beab-715d82d62889" />
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/83bacf9b-82a7-4ea2-9101-3f00532c29ba" />
 
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/4b955f6f-4115-48c7-9fa1-d805c30dff15" />
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/1ff7d25a-2fb0-4e2d-988f-9d138153550c" />
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/e76e5cdd-9385-4e2c-b328-10d0c16ca61a" />
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/4535b90a-8b08-4b81-8f9d-14b41fedcd32" />
 
-# Crystals-Portfolio
-# Crystals-Portfolio
+#
