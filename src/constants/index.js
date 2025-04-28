@@ -1,6 +1,7 @@
 import {mobile,backend,creator,web,javascript,typescript,html,css,reactjs,redux,tailwind,nodejs,mongodb,git,figma,docker,situsamc,clayton,easybay,pizzatime,speedymeals,threejs} from "../assets";
 import kimberlyaugust from "../assets/testimonials/kimberlyaugust.png";
 import darrenpalladino from "../assets/testimonials/darrenpalladino.png";
+import neilhinch from "../assets/testimonials/neilhinch.png";
 
 export const navLinks = [
   {
@@ -141,6 +142,7 @@ const testimonials = [
     name: "Neil Hinch",
     designation: "Senior Mortgage Examiner, Lead Compliance Analyst ",
     company: "Clayton Holdings, LLC",
+    image: neilhinch,
 
   },
   {
