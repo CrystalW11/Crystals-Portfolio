@@ -21,8 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import augustmortgage from "./company/augustmortgage.png";
-import jciii from "./company/jciii.png";
+
+
 import situsamc from "./company/situsamc.png";
 import clayton from "./company/clayton.png";
 
@@ -52,11 +52,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  augustmortgage,
   situsamc,
-  sls,
   clayton,
-  jciii,
   easybay,
   pizzatime,
   speedymeals,

@@ -1,4 +1,6 @@
-import {mobile,backend,creator,web,javascript,typescript,html,css,reactjs,redux,tailwind,nodejs,mongodb,git,figma,docker,augustmortgage,situsamc,sls,clayton,jciii,easybay,pizzatime,speedymeals,threejs, testimonials} from "../assets";
+import {mobile,backend,creator,web,javascript,typescript,html,css,reactjs,redux,tailwind,nodejs,mongodb,git,figma,docker,situsamc,clayton,easybay,pizzatime,speedymeals,threejs} from "../assets";
+import kimberlyaugust from "../assets/testimonials/kimberlyaugust.png";
+import darrenpalladino from "../assets/testimonials/darrenpalladino.png";
 
 export const navLinks = [
   {
@@ -106,20 +108,7 @@ const experiences = [
       "Developed and implemented data integrity checks within securitization processes, utilizing React for front-end reporting and SQL for back-end data analysis, ensuring accurate financial analysis and performance monitoring of real estate portfolios.",
     ],
   },
-  {
-    title: "Foreclosure Associate",
-    company_name: "Specialized Loan Servicing, LLC",
-    icon: sls,
-    iconBg: "#E6DEDD",
-    date: "August 2011 - July 2013",
-    points: [
-      "Administered foreclosure processes in line with established policies and procedures, ensuring accuracy and compliance.",
-      "Maintained and updated loan records in servicing systems and relevant software to ensure data accuracy and currency.",
-      "Audited and reconciled reports between systems to guarantee timeliness, quality, and consistency.",
-      "Responded promptly to inquiries and disputes from attorneys, vendors, branches, and internal departments, addressing issues related to foreclosure actions with professionalism and precision.",
-      "Ensured foreclosure actions aligned with investor, insurer, and government agency guidelines, while consistently meeting or exceeding Key Performance Indicators (KPIs).",
-    ],
-  },
+
   {
     title: "QC Default Foreclosure Analyst (Remote)",
     company_name: "Clayton Holdings, LLC",
@@ -136,28 +125,6 @@ const experiences = [
       "Conducted thorough due diligence on foreclosure and bankruptcy cases, identifying potential risks and ensuring full transaction verification to comply with operational compliance requirements and legal reviews under the Consent Order.",
     ],
   },
-  {
-    title: "Foreclosure Associate",
-    company_name: "JC III & Associates",
-    icon: jciii,
-    iconBg: "#383E56",
-    date: "March 2010 - April 2011",
-    points: [
-      "Gathered all collateral documents and ensure they complied and send to client for further review.",
-    ],
-  },
-  {
-    title: "Loan Processor",
-    company_name: "August Mortgage Corporation",
-    icon: augustmortgage,
-    iconBg: "#E6DEDD",
-    date: "Jan 2000 - Jan 2006",
-    points: [
-      "Accurately input and update critical data, preparing transactions for smooth closing by coordinating payoffs and collecting third-party fees from closing agents.",
-      "Reviewed and verified credit reports, analyzed FICO scores, payment histories, and validated debts, ensuring alignment with 1003 mortgage application details.",
-      "Streamline loan processing, closing, and funding, ensuring efficient execution of all necessary steps for a successful transaction.",
-    ],
-  },
 ];
 
 const testimonials = [
@@ -166,6 +133,7 @@ const testimonials = [
     name: "Kimberly August",
     designation: "COO",
     company: "August Mortgage Corporation",
+    image: kimberlyaugust,
 
   },
   {
@@ -180,6 +148,7 @@ const testimonials = [
     name: "Darren Palladino",
     designation: "AVP, Business Operations ",
     company: "SitusAMC",
+    image: darrenpalladino,
 
   },
 ];
