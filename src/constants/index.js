@@ -133,6 +133,8 @@ const testimonials = [
     designation: "COO",
     company: "August Mortgage Corporation",
     image: kimberlyaugust,
+    source_code_link:
+      "https://www.linkedin.com/in/kimberly-august-64ab0645/",
 
   },
   {
@@ -141,6 +143,8 @@ const testimonials = [
     designation: "Senior Mortgage Examiner, Lead Compliance Analyst ",
     company: "Clayton Holdings, LLC",
     image: neilhinch,
+    source_code_link:
+      "https://www.linkedin.com/in/neil-hinch-76518936/",
 
   },
   {
@@ -149,6 +153,8 @@ const testimonials = [
     designation: "AVP, Business Operations ",
     company: "SitusAMC",
     image: darrenpalladino,
+    source_code_link:
+      "https://www.linkedin.com/in/darren-palladino-1b592b12a/",
 
   },
 ];
