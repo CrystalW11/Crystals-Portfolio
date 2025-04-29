@@ -15,6 +15,7 @@ const FeedbackCard = ({
   designation,
   company,
   image,
+  source_code_link, // Add this line if you want to destructure it directly
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
