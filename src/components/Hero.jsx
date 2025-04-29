@@ -23,6 +23,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <br/>
+      <br/>
 
       {/* Adjusted Canvas container */}
       <div className="absolute inset-0 top-0 w-full h-full flex justify-center items-center">

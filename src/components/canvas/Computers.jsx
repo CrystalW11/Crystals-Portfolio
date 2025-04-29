@@ -54,6 +54,9 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+    <>
+    <br/>
+    <br/>
     <Canvas
       frameloop='demand'
       shadows
@@ -72,6 +75,7 @@ const ComputersCanvas = () => {
 
       <Preload all />
     </Canvas>
+    </>
   );
 };
 
