@@ -196,7 +196,7 @@ const projects = [
       },
     ],
     image: pizzatime,
-    source_code_link: "https://github.com/DriftingShade/Pizza-Time",
+    source_code_link: "https://github.com/CrystalW11/Pizza-Time.git",
   },
   {
     name: "Speedy Meals | Full Stack Developer",
