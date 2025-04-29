@@ -1,5 +1,5 @@
 
-# Crystals-Portfolio
+# Crystal-Warmacks-Portfolio
 
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/4b955f6f-4115-48c7-9fa1-d805c30dff15" />
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/1ff7d25a-2fb0-4e2d-988f-9d138153550c" />
