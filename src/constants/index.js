@@ -2,6 +2,7 @@ import {mobile,backend,creator,web,javascript,typescript,html,css,reactjs,redux,
 import kimberlyaugust from "../assets/testimonials/kimberlyaugust.png";
 import darrenpalladino from "../assets/testimonials/darrenpalladino.png";
 import neilhinch from "../assets/testimonials/neilhinch.png";
+import { FaLinkedin } from "react-icons/fa";
 
 export const navLinks = [
   {
