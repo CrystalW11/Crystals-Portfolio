@@ -1,4 +1,4 @@
-
+/** @format */
 
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
@@ -8,23 +8,6 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
-
-  // ✅ FIX: Clean NaN values in the geometry after model is loaded
-  useEffect(() => {
-    computer.scene.traverse((child) => {
-      if (child.isMesh && child.geometry?.attributes?.position?.array) {
-        const posArray = child.geometry.attributes.position.array;
-        for (let i = 0; i < posArray.length; i++) {
-          if (isNaN(posArray[i])) {
-            console.warn("NaN detected in geometry. Replacing with 0.");
-            posArray[i] = 0;
-          }
-        }
-        child.geometry.computeBoundingBox();
-        child.geometry.computeBoundingSphere();
-      }
-    });
-  }, [computer]);
 
   return (
     <mesh>
@@ -52,15 +35,21 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
 
+    // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
 
+    // Add the callback function as a listener for changes to the media query
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
+    // Remove the listener when the component is unmounted
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
@@ -72,8 +61,7 @@ const ComputersCanvas = () => {
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+      gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
