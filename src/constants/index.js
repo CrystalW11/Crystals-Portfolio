@@ -218,7 +218,7 @@ const projects = [
     ],
     image: speedymeals,
     source_code_link:
-      "https://github.com/CrystalW11/Crystal-s-Technical-Projects/blob/main/speedy-meals.zip",
+      "https://github.com/CrystalW11/Speedy-Meals.git",
   },
 ];
 
