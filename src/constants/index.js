@@ -175,7 +175,7 @@ const projects = [
     ],
     image: easybay,
     source_code_link:
-      "https://github.com/CrystalW11/Crystal-s-Technical-Projects/blob/main/EasyBay.zip",
+      "https://github.com/CrystalW11/Easy_Bay.git",
   },
   {
     name: "Pizza Time | Full Stack Developer | Group Collaboration",
